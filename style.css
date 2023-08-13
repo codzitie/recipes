@@ -13,28 +13,42 @@ body{
 
 .laz{
   color:rgb(223, 82, 27);
+  
 }
+
+.index{
+  color: rgb(240, 62, 91);
+}
+
+.h1 {
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+
 h1{
   color:rgb(243, 137, 7);
   /* background-color: rgb(53, 36, 36); */
   text-align: center;
+  font-size: 49px;
 }
 
 h2{
   color: green;
+  font-size: 39px;
 }
 
 h3{
   color: rgb(243, 68, 97);
+  font-size: 31px;
 }
 
 ul{
-  color: blueviolet;
+  color: black;
 }
 
 p{
-  color: rgb(248, 11, 248);
   text-align:inherit;
+  font-size: 20px;
   /* background: rgba(255, 84, 104, 0.3);
   border: 2px solid rgb(255, 84, 104);
   padding: 10px;
@@ -50,7 +64,8 @@ p{
 } 
 
 .unordered-list-las {
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   list-style: none;
   text-align: center;
 } 
@@ -59,10 +74,30 @@ p{
   background-color: rgb(179,57,81);
   color: #fff;
   text-decoration: none;
-  padding: 1em 7em;
+  padding: 1em 8em;
+}
+
+#l2 {
+  width: 0.01px;
+  margin-left: 0.3em;
+  background-color: green;
 }
 
 .links-list a:hover {
   background-color: rgb(243, 137, 7);
   color: #101309;
+}
+
+.l3 a:hover{
+  background-color: rgb(223, 82, 27);
+}
+
+.lasagna-img {
+  width: 700px;
+}
+.unordered-list-p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  list-style: none;
+  text-align: center;
 }
